@@ -36,9 +36,9 @@ cron:
       cron: "16 0 * * *"
       timeout: 60
 
-#    - name: "[蝦皮]更新token_5"
-#      cron: "10 */8 * * *"
-#      timeout: 60
+    - name: "[蝦皮]更新token_5"
+      cron: "10 */8 * * *"
+      timeout: 60
 
     - name: "[蝦皮]蝦幣寶箱_6"
       cron: "17 0 * * *"
@@ -57,9 +57,9 @@ script-providers:
     url: https://kinta.ma/surge/scripts/shopee_checkin.js
 interval: 86400
 
-#  "[蝦皮]更新token_5":
-#    url: https://kinta.ma/surge/scripts/shopee_update_token.js
-#    interval: 86400
+  "[蝦皮]更新token_5":
+    url: https://kinta.ma/surge/scripts/shopee_update_token.js
+    interval: 86400
 
 "[蝦皮]蝦幣寶箱_6":
     url: https://kinta.ma/surge/scripts/shopee_coin_lucky_draw.js
